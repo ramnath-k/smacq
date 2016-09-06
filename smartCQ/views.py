@@ -11,8 +11,8 @@ from models import *
 from wit import Wit
 import random
 import time
-PAGE_ACCESS_TOKEN = "EAAMyhPhUU18BACGzQxYt8K3JwUvskbsdlu8URxwZCxUyfjeHiBtKun3viNUPBgdErG2EuhpejRzGj01qBxtCQu6m8ZADyMzcZBDyr4GATgxqZBV2ZBY7UHI9ScYyDAG5iJJDOlgL3HnGzQzCREatpcXlK6sZBRZBSvtJ7RzfOtZB5gZDZD"
-VERIFY_TOKEN = "SMARTCQVERIFYTOKEN"
+PAGE_ACCESS_TOKEN = "<YOUR PAGE ACCESS TOKEN>"
+VERIFY_TOKEN = "<YOUR PAGE VERIFY TOKEN>"
 i = 0
 general = ["hmmm","hmmm...","ok","oh","ok","ahh","uhh"]
 def send(request, response):
@@ -31,9 +31,9 @@ import urllib, requests
 
 
 # the following need to be in settings.py
-LUIS_QUERY_URL = "https://api.projectoxford.ai/luis/v1/application?"
-APP_ID = "d7681133-d480-4c00-9fb2-ff9e73fd096a"
-SUBSCRIPTION_KEY = "c08f2b88f18841599cbcaf24c639dc49"
+LUIS_QUERY_URL = "<LUIS URL>"
+APP_ID = "<YOUR LUIS APP ID>"
+SUBSCRIPTION_KEY = "<LUIS SUBSCRIPTION KEY>"
 
 
 def query_luis(message):
